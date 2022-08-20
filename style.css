@@ -99,13 +99,6 @@ button:hover {
     background-color: #ffffff;
 }
 
-.cajita {
-    background-color: blue;
-    width: 100px;
-    height: 100px;
-    margin: 10px;
-}
-
 @media screen and (max-width:600px) {
     nav li {
         margin-left: 10px;
