@@ -1,6 +1,6 @@
 body {
     margin: o;
-    font-family: 'Roboto', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #header {
@@ -87,8 +87,32 @@ button:hover {
 
 
 .jumbotron {
+    background-color: #B2D47C;
     color: #334c46;
     padding: 30px;
     /* background-color: #ffffff; */
 
+}
+
+.contenedor {
+    min-height: 100vh;
+    background-color: #ffffff;
+}
+
+.cajita {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+@media screen and (max-width:600px) {
+    nav li {
+        margin-left: 10px;
+    }
+
+    .logo img {
+        width: 50px;
+
+    }
 }
