@@ -1,6 +1,7 @@
 body {
     margin: o;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
 }
 
 #header {
@@ -97,37 +98,80 @@ button:hover {
 .contenedor {
     min-height: 100vh;
     background-color: #ffffff;
+    color: #334c46;
+
+
 }
 
-.footer{
+.footer {
     margin-top: 150px;
     width: 100%;
-    padding: 100px 15%;
-    background-color: #333;
+    padding: 100px 5%;
+    background-color: #B2D47C;
     color: #efefee;
     display: flex;
+    @media screen min-width: 1300px;
+    flex: 0 1 75%;
+    
+}
 
-}
-.footer div{
+.footer div {
     text-align: center;
+    flex: 0 1 100%;
+    float: right;
+    
+    
 }
-.col-2{
+ 
+
+.col-2 {
+    flex: 0 1 100%;
     flex-grow: 2;
 
 }
-.footer div h3{
+
+.footer div h5 {
     font-weight: 300;
     margin-bottom: 30px;
     letter-spacing: 1px;
 
 }
-.col-1 a{
+
+.col-1 a {
     display: block;
     text-decoration: none;
     color: #efefef;
     margin-bottom: 10px;
 
 }
+form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+}
+form button{
+    margin-top: 30px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 1000px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.redes-sociales{
+    margin-top: 30px;
+}
+.redes-sociales i{
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+}
+
 @media screen and (max-width:600px) {
     nav li {
         margin-left: 10px;
@@ -137,4 +181,6 @@ button:hover {
         width: 50px;
 
     }
+
+    
 }
